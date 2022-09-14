@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+Assignment Project for B2Brain
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Instructions to check the project.
 
-## Available Scripts
+1. Dashboard
+    It only cotaines the Top image and some testimonials by the user.
 
-In the project directory, you can run:
+2. Accounts -> Manage All
+    On Cliking accounts it autmaticaly redirects to the manage all component.
+    It will let you to track new accounts.
+    **Track** button will add the account to the list.
+    Added accounts will display on **Track new accounts** option.
 
-### `npm start`
+3. Accounts -> Track new accounts
+    The tracking accounts will come here.
+    You can remove those accounts by clicking remove.
+    **Remove** option will remove the account from traking account.
+    **Tracking** option will will show the details of the account in console.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Other options (Intel, Leads, Preferences, Integrations, Team, Help/Support)
+    All the remaining options are dummy options but you can click them.
+    Sample text is available in all of them.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Note
+    1. Please wait till the loading animation is completed when you click the **Track** button.
+       When it is completed it will show the success message.
+       Do not click mulitple accounts at the same time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    2. When you are searching for the accounts by typing very fast can sometimes cause lagging but don't worry it will
+       automatically resolved after a few times. 
+       It happens because when you type it calls the provided api everytime, hence calling the function multiple times will lead to a little delay in the response.
 
-### `npm run build`
+    3. Where ever there is a place for a logo a rectangle of blue background is added to show how logo will be placed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    4. Routing is not added in the project. All the components are rendered on the same page.
+       The components are rendered based on the state of the component.
+       If the state is true then the component will be rendered else it will not be rendered.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    5. The project is not responsive. It is only for desktop view with greater width than 1024px.
+       Some text will be hidden if the width is because of **alt tag** of the image.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    6. There is no javascript error and warnings in this project, but when you load the accounts because the images are not
+       available it will show the error in the console. But it will not affect the project.
 
-### `npm run eject`
+    7. If the account is already selected then it is apper in green color and says tracking till the you refresh the page or
+         remove the account from the **Track New Account** option.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    8. If there are something you want to ask or want to know more about the project please contact me.
+       I will be happy to answer your questions.
