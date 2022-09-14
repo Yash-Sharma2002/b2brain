@@ -15,7 +15,7 @@ import AccountTreeOutlinedIcon from '@mui/icons-material/AccountTreeOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 
-// import './css/override.css'
+import './css/override.css'
 
 const Dashboard = React.lazy(() => import('./components/Dashboard'));
 const Intel = React.lazy(() => import('./components/Intel'));
