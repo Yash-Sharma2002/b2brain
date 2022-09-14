@@ -1,5 +1,5 @@
  
-.css-1ptx2yq-MuiInputBase-root-MuiInput-root:before{
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:before,.css-1vv4lmi::before{
     border-bottom: none!important;
     outline: none!important;
 }
